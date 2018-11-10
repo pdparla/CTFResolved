@@ -1,0 +1,6 @@
+La flag era la entrada, que tras ser tratada por unas operaciones
+tenia que ser igual que el array verificaPassword.
+
+Luego nos creamos un alfabeto y que compruebe para cada valor cual es su correcto
+
+Con esto ya tendriamos la flag.
